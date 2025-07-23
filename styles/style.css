@@ -17,6 +17,10 @@
     display: flex;
 }
 
+
+.text-primary{
+    color: #FF900E;
+}
 /* dark-01 */
 
 .text-black{
@@ -45,7 +49,14 @@ color: #727272;
     border: none;
 }
     
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+main>section{
+    margin-top: 130px;
+}
 
 
 
@@ -59,10 +70,11 @@ color: #727272;
 /* Navbar Styles */
 
 .navbar{
-
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 20px 50px;
 }
 
 .brand{
@@ -80,7 +92,7 @@ color: #727272;
     font-weight: 500;
 }
 
-.navbar, .banner{
+.navbar, .banner {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -110,6 +122,31 @@ margin-bottom: 30px;}
     width: 100%;
 }
 
+/* teams related styles */
+
+
+.teams{align-items: center;
+}
+
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   gap: 24px;
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+.feature-title{
+
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#quick-list{
+    font-weight: 500;
+}
 
 
 
