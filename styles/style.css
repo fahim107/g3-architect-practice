@@ -79,7 +79,8 @@ main>section{
 
 .brand{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2.8rem;
+    width: 100%;
 }
 
 .nav-item{
@@ -157,8 +158,21 @@ margin-bottom: 30px;}
 /* Responsive media query for small device */
 @media screen and (max-width: 576px){
     .navbar,
-    .nav-links{
+    .nav-links,
+    .teams{
         flex-direction: column;
     }
+    .brand{
+        
+        width: 100px;
+       
+    }
+    .team-image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-features{
+    margin-left:20px;
+   
+}
 }
    
